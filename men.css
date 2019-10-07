@@ -1,0 +1,309 @@
+body{
+    width: 100%;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    box-sizing: border-box;
+}
+.max-width{
+    width: 90rem;
+}
+.clear-fix{
+    clear: both;
+    overflow: hidden;
+}
+.content2{
+    vertical-align: baseline;
+    color:#757575;
+    line-height: 1.31;
+    font-size:11px;
+    padding: 15px
+}
+.header{
+    width: 100%;
+    background: #e5e5e5;
+    font-weight: 600;
+    font-size: 12px;
+    height: 55px;
+}
+.header ul{
+    list-style: none;
+    width: 100%;
+    margin: 0 auto;
+    padding-top:22px;
+    padding-left: 20px;
+}
+.header ul li{
+    display: inline;
+}
+.header ul li a{
+    text-decoration: none;
+    color: #282828
+}
+.header ul li:last-child{
+    border-left: solid 2px #9b9b9b;
+    padding-left:5px;
+}
+.header ul li a img{
+    width: 12px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    /* ,, */
+    z-index: 10;
+    background-color: #e5e5e5;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  /* .sticky + .content {
+    padding-top: 102px;
+  } */
+.header2{
+    width: 100%;
+    margin:0 auto;
+    height: auto;
+    /* border-bottom: 0.4px solid #99bb99; */
+}
+.header2 .left{
+    float: left;
+}
+.header2 .left .logo{
+    float: left;
+}
+.header2 .left img{
+    width:120px;
+    margin-top: 6px;
+}
+.header2 .left ul li, .header2 .right ul li{
+    float: left;
+    padding:15px;
+    list-style: none;
+}
+.header2 .left ul li a:hover, .header2 .right ul li a:hover{
+    color: #99bb99;
+    transition:0.4s;
+}
+.header2 .left ul li a, .header2 .right ul li a,.about2 .col-4 span,.middle .category ._1dong ul li.text{
+    text-decoration: none;
+    font-weight: 600;
+    color:#282828;
+    font-size:12px;
+}
+.header2 .right,.header2 .right .search{
+    float: right;
+    height: 54px;
+}
+.header2 .right .search{
+    background-color:black;
+    width:200px;
+    padding:18px;
+    height: auto;
+}
+.header2 .right .search .left2{
+    float: left;
+    margin-right: 25px;
+    color:white;
+}
+.header2 .right .search .right2{
+    float: right;
+    color:white;
+}
+.box-chat{
+    right:0;
+    bottom: 17px;
+    position: fixed;
+    z-index: 10;
+}
+.box-chat p{
+    display: inline;
+    background-color: rgb(236, 227, 227);
+    color:gray;
+    font-size: 12px;
+    font-family: segoe ui light;
+    padding:18px;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.box-chat a{
+    color:white;
+    background-color: black;
+    padding:16px;
+    border: solid 1px #fff;
+}
+.box-chat a:hover{
+    opacity: 0.9;
+}
+.box-chat a:hover p{
+    opacity: 1;
+}
+.bread .breadcrumb{
+    background: none;
+    padding: 0;
+    margin:0;
+}
+.bread .breadcrumb a,.middle .products .item a,.middle .products .item p{
+    color: #9b9b9b;
+    /* text-decoration: none; */
+    text-decoration-color: #111111;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 1.75;
+}
+/* .breadcrumb ol li:last-child a{
+    color: #111111;
+} */
+.bread .breadcrumb ol li a:hover{
+    text-decoration: underline;
+    text-decoration-color: #282828;
+}
+.bread .bg-man{
+    height: 200px;
+    position: relative;
+    display: block;
+}
+.bread .bg-man img{
+    position: absolute;
+}
+
+.bread .bg-man span{
+    position: absolute;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    top: 85px;
+    left: 500px;
+}
+img{
+    width: 100%;
+}
+.about2 .col-3 span, .about2 .col-3 .icon,.about2 .col-4,.about2 .col-2{
+    vertical-align: baseline;
+    color:#757575;
+    line-height: 1.31;
+    font-size:11px;
+    padding: 15px
+}
+.about2{
+    width:100%;
+    margin: 0 auto;
+    padding-bottom: 25px;
+    margin-top:10px;
+}
+.about2 .col-3,.about2 .col-4,.about2 .col-2{
+    border: 1px solid #e5e5e5;
+}
+/* .about2 .col-3 .content,.about2 .col-4 .content,.about2 .col-2 .content{
+    
+} */
+.about2 .col-3 span{
+    float: left;
+}
+.about2 .col-3  .icon,.about2 .col-2  .icon{
+    float:right;
+    color:black;
+    font-weight: 200;
+}
+.middle .category{
+    width:18%;
+    float: left;
+}
+.middle .category ._1dong{
+    border-top: 1px solid #e5e5e5;
+    padding: 10px;
+    margin:20px;
+}
+.middle .category ._1dong ul li.text{
+    float: left;
+}
+.middle .category ._1dong ul li.icon{
+    float:right;
+    color: #262626;
+    font-weight: 100;
+    font-size: 10px;
+}
+.middle .products{
+    width:82%;
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.middle .products .item{
+    width:23%;
+    margin:1%;
+}
+.middle .products .item a{
+    text-decoration: none;
+    color:black;
+    transition: 0.4s;
+    display: inline-block;
+    margin-top:10px;
+}
+.middle .products .item a:hover{
+    text-decoration: underline;
+    text-decoration-color: #111111;
+}
+.middle .products .item p{
+    margin-top: 5px;
+}
+.middle .products .item img{
+    width:100%;
+}
+.about3{
+    width:100%;
+    border-top: 1px solid #e5e5e5;
+    margin:50px 0px 0px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.about3 .col-3{
+    border-right: 1px solid #e5e5e5;
+}
+.about3 .inside .col-3:last-child{
+    border-right: none;
+}
+.about3 .col-3 .inside{
+    padding: 15px;
+}
+.footer-legar{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+.footer-legar .language{
+    float: left;
+    margin-top:20px;
+    margin-left: 20px;
+}
+.footer-legar .language ul li{
+    display: inline-block;
+}
+.footer-legar .language ul li a{
+    color:white;
+    font-size: 12px;
+    font-weight: bold;
+}
+.footer-legar .language ul li a img{
+    width:12px;
+}
+.footer-legar .term{
+    display: inline-block;
+    /* margin-top: 20px; */
+    margin: 20px 430px;
+    
+}
+.footer-legar .term ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.footer-legar .term ul li a{
+    color:rgba(255, 255, 255, 0.582);
+    font-size: 12px;
+}
+.footer-legar .right{
+    font-size:13px;
+    color: white;
+    float: right;
+    margin-top: 20px;
+}

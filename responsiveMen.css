@@ -1,0 +1,213 @@
+/* Medium Desktop */
+@media (max-width: 1700px) {
+    body{
+        width: 100%;
+    }
+    .mobile{
+        display: none;
+    }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .mobile {
+        display: block;
+        box-sizing: border-box;
+    }
+    .desktop {
+        display: none;
+    }
+    img{
+        width:100%;
+    }
+    .menu{
+        width:100%;
+        text-align: center;
+        
+    }
+    .menu .col-4{
+        padding:10px;
+    }
+    
+    .menu .barRe{
+        padding-left:15px;
+        text-align: left;
+    }
+    .menu .icon{
+        text-align: right;
+        padding-right: 10px;
+    }
+    
+    .menu ul li{
+        display: inline;
+        margin-right: 5px;
+    }
+    .middleRe{
+        width: 100%;
+    }
+    .middleRe .container-fluid .banner2{
+        position: relative;
+        width:100%;
+        height: 200px;
+        margin-bottom:30px;
+    }
+    .middleRe .container-fluid .banner2 img{
+        position: absolute;
+        left:0;
+
+    }
+    .middleRe .container-fluid .banner2 span{
+        position: absolute;
+        font-size: 25px;
+        text-transform: uppercase;
+        font-weight: bold;
+        top: 77px;
+        left: 47px;
+    }
+    .borderRight{
+        border-right:1px solid #e5e5e5;
+    }
+    .formatText{
+        text-decoration: none;
+        font-weight: 600;
+        color:#282828;
+        font-size:12px;
+    }
+    .middleRe .container-fluid .refine{
+        border:1px solid #e5e5e5;
+    }
+    .middleRe .container-fluid .refine .col-8 span{
+        margin-top:10px;
+    }
+    .middleRe .container-fluid .productsMobile{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .middleRe .container-fluid .productsMobile .item a,.middleRe .container-fluid .productsMobile .item p{
+        color: #9b9b9b;
+        /* text-decoration: none; */
+        text-decoration-color: #111111;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 1.75;
+    }
+    .middleRe .container-fluid .productsMobile .item{
+        width:49%;
+        margin-right: 2%;
+        margin-bottom: 20px;
+    }
+    .middleRe .container-fluid .productsMobile .item a{
+        text-decoration: none;
+        color:black;
+        transition: 0.4s;
+        display: inline-block;
+        margin-top:10px;
+    }
+    .middleRe .container-fluid .productsMobile .item a:hover{
+        text-decoration: underline;
+        text-decoration-color: #111111;
+    }
+    .middleRe .container-fluid .productsMobile .item p{
+        margin-top: 5px;
+    }
+    .middleRe .container-fluid .productsMobile .item img{
+        width:100%;
+    }
+    .middleRe .about{
+        text-align: center;
+        width: 100%;
+    }
+    .middleRe .about h3{
+            font-weight: 400;
+            padding: 15px;
+    }
+    .middleRe .about p, .middleRe .about4 p{
+        vertical-align: baseline;
+        color:#757575;
+        line-height: 1.31;
+        font-size:11px;
+        padding: 15px
+    }
+    .middleRe .about a{
+        line-height: 1.31;
+        font-size:11px;
+        color: black;
+        padding: 15px;
+        text-decoration: underline;
+    }
+    .middleRe .about a:hover{
+        color:#757575;
+    }
+    .middleRe .about2{
+        width: 100%;
+        display: flex;
+        text-align: center;
+       
+    }
+    .middleRe .about2 .left{
+        width:50%;
+        
+    }
+    .middleRe .about2 .left a{
+        color:white;
+        text-decoration: none;
+        padding: 25px 50px;
+        background-color: black;
+    }
+    .middleRe .about3{
+        width:100%;
+        margin-bottom: 10px;
+    }
+    .middleRe .about3 ul li{
+        list-style-type: none;
+        display: inline-block;
+        margin: 20px;
+    }
+    .middleRe .about3 ul li a{
+        text-decoration: none;
+        color:black;
+        font-weight: bold;
+    }
+    .middleRe .about4{
+        width:100%;
+        text-align: center;
+    }
+    .middleRe .about4 span{
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .middleRe .social{
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+    .middleRe .social .icon{
+        display: inline;
+        
+
+    }
+    .middleRe .social .icon a{
+        color: #111111;
+        text-decoration: none;
+        padding:12px;
+    }
+    .middleRe .social .icon a:hover{
+        border: 1px solid #2b2b2b;
+    }
+    .footer{
+        background-color: black;
+        width:100%;
+        height:60px;
+        position: relative;
+        display: flex;
+    }
+    .footer .left{
+        width:50%;
+        color:white;
+        
+    }
+    .footer .left a{
+        text-decoration: none;
+        color:white;
+
+    }
+}
